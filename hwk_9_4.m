@@ -1,6 +1,7 @@
 clear;
 %intialize vairiable that will be used later
 f = inline('t^2+y','t','y');
+
 t0 = 1;
 y0 = 2;
 T =3;

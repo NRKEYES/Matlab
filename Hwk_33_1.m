@@ -24,7 +24,7 @@ plot(t,x)
 
 %this plots the parametric curves for part b
 figure
-p = linspace(1,100000);
+p = linspace(-.5,10);
 x = -4.*exp(-.5.*p)+4.*exp(-1.5.*p);
 y = +2.*exp(-.5.*p)-6.*exp(-1.5.*p);
 plot(x,y)

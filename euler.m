@@ -1,6 +1,6 @@
 function [ tend, yend ] = euler( f,t0,y0,T,delT )
-%EULER Summary of this function goes here
-%   Detailed explanation goes here
+
+
 n = (T-t0)/delT;
 t(1) = t0;
 y(1) = y0;
